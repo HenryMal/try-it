@@ -1,6 +1,6 @@
 # Try It! 
 
-![Try It! Logo](https://imgur.com/0z6wlNX.jpg)
+<img src="https://imgur.com/0z6wlNX.jpg" alt="Try It! Logo" width="300" height="300"> 
 
 ## Your fashion website to virtually try new clothing. 
 
