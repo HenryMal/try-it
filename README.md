@@ -1,6 +1,6 @@
 # Try It! 
 
-![Try It! Logo](https://imgur.com/0z6wlNX)
+![Try It! Logo](https://imgur.com/0z6wlNX.jpg)
 
 ## Your fashion website to virtually try new clothing. 
 
