@@ -4,7 +4,7 @@ import TryItLogo from "../images/TryItLogo.png";
 
 export function NavBar() {
   return (
-    <nav className="flex justify-between items-center p-3 bg-gray-900 text-white">
+    <nav className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ca812d] text-white w-36 h-72 rounded-3xl flex flex-col items-center p-4 shadow-lg">
       {/* Logo */}
       <div className="text-xl font-bold">
         <Link href="/">
@@ -19,15 +19,12 @@ export function NavBar() {
       </div>
 
       {/* Navigation Links */}
-      <div className="flex space-x-6">
-        <Link href="/explore" className="hover:text-gray-400">
-          Explore
+      <div className="mt-6 flex flex-col items-center space-y-16 text-lg font-bold w-full text-center">
+        <Link href="/closet" className="hover:text-gray-300">
+          My Closet
         </Link>
-        <Link href="/closet" className="hover:text-gray-400">
-          Closet
-        </Link>
-        <Link href="/account" className="hover:text-gray-400">
-          Account
+        <Link href="/account" className="hover:text-gray-300">
+          My Account
         </Link>
       </div>
     </nav>
