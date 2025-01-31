@@ -4,15 +4,16 @@ import TryItLogo from "../images/TryItLogo.png";
 
 export function NavBar() {
   return (
-    <nav className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ca812d] text-white w-36 h-72 rounded-3xl flex flex-col items-center p-4 shadow-lg">
+    <nav className="fixed left-4 top-1/2 -translate-y-1/2 bg-[#ca812d] text-white w-36 h-72 rounded-3xl flex flex-col items-center p-4 shadow-lg font-mono">
       {/* Logo */}
-      <div className="text-xl font-bold">
+      <div className="flex text-xl font-bold py-2">
         <Link href="/">
           <Image
             src={TryItLogo}
             alt="Try It! Logo"
             width={56}
             height={56}
+            className="ml-2"
           ></Image>
           Try It!
         </Link>
